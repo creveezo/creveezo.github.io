@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+<body>
+<h3 align="center">Решение алгоритмической задачи</h3>
+<p id="task_content">1015. Дано вещественное число A. Вычислить х = a<sup>2</sup>+4a+5  при а < 62;
+    в противном случае x = 1/(a<sup>2</sup>) + 4a + 5.</p>
+
+<button onclick="a_enter()">Ввести А</button>
+<p id="demo"></p>
+<p id="result"></p>
+
+<script>
+    function a_enter() {
+    var txt;
+    var res;
+    var number = prompt("Введите число А", "55");
+    if (number == null || number == "") {
+    txt = "Пользователь не ввёл число.";
+    res = "";
+} else {
+    txt = number;
+    if (number < 62) {
+    res = number * number + number * 4 + 5
+    }
+    else {
+    res = 1/number + 4 * number + 5
+    }
+}
+    document.getElementById("demo").innerHTML = 'А = ' + txt;
+    document.getElementById("result").innerHTML = 'Ответ: ' + res;
+
+}
+
+</script>
+
+</body>
+</html>
