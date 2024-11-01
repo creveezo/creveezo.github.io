@@ -61,10 +61,12 @@ body {
 .nav {
     top: 133px;
 	padding-bottom: 10010px;
+	padding-left: 15px;
+	padding-top: 15px;
 	margin-bottom: -10000px;
 	float: left;
 	width: 230px;
 	position: fixed;
 	color:
-	background: #fedeff;
+	background: #dccde2;
 }
