@@ -28,7 +28,7 @@
     color: #a126c6;
     text-decoration: none;
 }
-.footer_link:active {
+.footer_link:visited {
     color: #a126c6;
     text-decoration: none;
 }
