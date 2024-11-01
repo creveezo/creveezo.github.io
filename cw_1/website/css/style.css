@@ -23,11 +23,6 @@
 .footer_link: {
     color: #a126c6;
     text-decoration: none;
-    padding: 15px;
-}
-.footer_link:active {
-    color: #a126c6;
-    text-decoration: none;
 }
 .footer_link:visited {
     color: #a126c6;
