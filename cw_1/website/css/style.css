@@ -24,9 +24,6 @@
     text-decoration: none;
     color: #4a1060;
 }
-
-.header_link{color:red; font-size:14pt; text-decoration: none;}
-.header_link:hover{color:blue; font-size:18pt;}
 #icon {
     padding: 10px;
     padding-right: 20px;
