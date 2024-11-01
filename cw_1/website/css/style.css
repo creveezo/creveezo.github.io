@@ -5,6 +5,7 @@
     background: url(../pic/background.png);
     color: #ebe3ee;
     height: 133px;
+    z-index: 999;
 }
 .header_link {
     color: #ebe3ee;
@@ -26,6 +27,14 @@
 }
 .footer_link:visited {
     color: #a126c6;
+    text-decoration: none;
+}
+.nav_link {
+    color: #8a02bd;
+    text-decoration: none;
+}
+.nav_link:visited {
+    color: #8a02bd;
     text-decoration: none;
 }
 #icon {
@@ -56,5 +65,6 @@ body {
 	float: left;
 	width: 230px;
 	position: fixed;
-	background: #eee;
+	color:
+	background: #fedeff;
 }
