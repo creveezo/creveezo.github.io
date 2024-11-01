@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Оригинальная алгоритмическая задача с отправкой данных на сервер</title>
+</head>
+<body>
+<h3 align="center">Решение алгоритмической задачи</h3>
+<p id="task_content">1015. Дано вещественное число A. Вычислить х = a<sup>2</sup>+4a+5  при а < 62;
+    в противном случае x = 1/(a<sup>2</sup>) + 4a + 5.</p>
+
+<form action="https://www.bing.com/search?" id="user" target="_blank">
+    <p>Для поисковика: <input name="q" value="search"></p>
+    <p>Формулировка задачи: <br>
+        <textarea rows="2" cols="60" name="task">Дано вещественное число A. Вычислить х = a^2+4a+5  при а < 62; в противном случае x = 1/(a^2) + 4a + 5.</textarea>
+    </p>
+    <p>a: <input id="a" name="a" type="number" value="55" step="0.0001"></p>
+    <p>Ответ: <input id="result" name="result" value="выполните действие 1"></p>
+    <p>Действие 1: <input id="verify" type="button" value="проверить"></p>
+    <p>Действие 2: <input id="send" type="button" value="отправить"></p>
+</form>
+<script src="../js/algo_form.js"></script>
+</body>
+</html>
