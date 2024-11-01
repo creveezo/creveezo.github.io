@@ -20,10 +20,6 @@
     text-decoration: none;
     font-size:15pt;
 }
-.header_link:visited {
-    text-decoration: none;
-    color: #4a1060;
-}
 .footer_link:active {
     color: #a126c6;
     text-decoration: none;
