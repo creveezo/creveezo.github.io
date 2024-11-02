@@ -7,33 +7,20 @@
     height: 133px;
     z-index: 999;
 }
-.header_link {
+.header_link:any-link  {
     color: #ebe3ee;
     text-decoration: none;
     font-size:14pt;
 }
-.header_link:visited {
-    text-decoration: none;
-    color: #ebe3ee;
-}
 .header_link:hover {
     color: white;
-    text-decoration: none;
     font-size:15pt;
 }
-.footer_link {
+.footer_link:any-link {
     color: #a126c6;
     text-decoration: none;
 }
-.footer_link:visited {
-    color: #a126c6;
-    text-decoration: none;
-}
-.nav_link {
-    color: #8a02bd;
-    text-decoration: none;
-}
-.nav_link:visited {
+.nav_link:any-link {
     color: #8a02bd;
     text-decoration: none;
 }
@@ -42,9 +29,14 @@
     padding-right: 20px;
     padding-left: 50px;
 }
+h3{
+    color: #520370;
+}
 .content {
-    margin-left: 230px;
-    margin-top: 133px;
+    margin-left: 240px;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    accent-color: #f22af2;
 }
 body {
     display: block;

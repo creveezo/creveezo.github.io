@@ -28,7 +28,100 @@
 </tbody>
 </table>
 </div>
+<div class="content">
+<form action="https://www.bing.com/search?" id="userEnter" name="userEnter" target="_blank">
+    <h3 align="center">Давай знакомиться!</h3>
+    <input type="hidden" name="q" value="search">
+    <table align="center">
+    <td width="10%"></td>
+    <td width="35%">
+        <p>
+            Имя:
+            <input type="Text" name="name" size="15" value="Наташа">
+        </p>
+        <p>
+            Фамилия:
+            <input type="Text" name="surname" size="15" value="Ростова">
+        </p>
+        <p>
+            Группа:
+            <select name="group">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        </p>
+        <p> </p>
+    </td>
+    <td>
+        <p>
+            Мобильный телефон:
+            <input type="tel" name="phone_number" value="+7 (890) 123 45-67">
+        </p>
+        <p>
+            Электронная почта:
+            <input type="text" name="email" size="30" value="example@example.com">
+        </p>
+        <p>
+            Дата:
+            <input type="date" name="user_date" value="2024-11-06">
+        </p>
+        <p align="right">
+            <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+    </td>
+    </table>
+</form>
 
+<form>
+    <h3 align="center">Вступай в вязальное сообщество</h3>
+    <input type="hidden" name="q" value="search">
+    <table align="center">
+    <td width="10%"></td>
+    <td>
+        <p>
+            Возраст:
+            <input type="number" name="age" size="20" value="5">
+        </p>
+        <p>
+            День рождения:
+            <input type="date" name="birthday" value="2000-01-01">
+        </p>
+        <p>
+            Опыт в вязании: <br>
+            <input type="Radio" name="exp" value="no" checked> Хочу научиться!
+            <input type="Radio" name="exp" value="new" checked> Всё ещё новичок <br>
+            <input type="Radio" name="exp" value="mid" checked> Уверенный любитель
+            <input type="Radio" name="exp" value="pro" checked> Профессионал
+        </p>
+        <p>
+            Навыки (можно выбрать те, которым хочется научиться): <br>
+            <input type="Checkbox" name="skill" value="crochet" checked> Вязание крючком
+            <input type="Checkbox" name="skill" value="macrame" checked> Макраме <br>
+            <input type="Checkbox" name="skill" value="knit" checked> Вязание спицами
+            <input type="Checkbox" name="skill" value="frivolite" checked> Фриволите
+        </p>
+        <p>
+            Какие изделия вязать интереснее всего и почему? <br>
+            <textarea cols="80" rows="4" name="textarea"> Поделись своим мнением</textarea>
+        </p>
+        <p>
+            Пароль:
+            <input type="Password" name="password" size="9" value="123">
+        </p>
+        <p align="right">
+            <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+    </td>
+    </table>
+</form>
+</div>
 
 
 <div class="footer">
