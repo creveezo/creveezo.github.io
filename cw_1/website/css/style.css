@@ -47,7 +47,7 @@ figure {
     max-width: 300px;
 }
 span.content_img {
-border: 5mm ridge rgba(153, 102, 153, .5);
+    max-width: 300px;
 }
 figcaption {
     color: #8a02bd;
