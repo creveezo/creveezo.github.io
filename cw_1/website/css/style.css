@@ -29,6 +29,9 @@
     padding-right: 20px;
     padding-left: 50px;
 }
+#left {
+    float: left;
+}
 h3{
     color: #520370;
 }
