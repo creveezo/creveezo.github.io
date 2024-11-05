@@ -39,6 +39,21 @@ h3{
     margin-bottom: 60px;
     accent-color: #b22af2;
 }
+figure {
+    border: thin #c0c0c0 solid;
+    padding: 5px;
+    margin: auto;
+    float: right;
+}
+span.content_img {
+border: 5mm ridge rgba(153, 102, 153, .5);
+}
+figcaption {
+    color: #8a02bd;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
 body {
     display: block;
     margin: 0px;
