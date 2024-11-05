@@ -44,6 +44,7 @@ figure {
     padding: 5px;
     margin: auto;
     float: right;
+    max-width: 300px;
 }
 span.content_img {
 border: 5mm ridge rgba(153, 102, 153, .5);
