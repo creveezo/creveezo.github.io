@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1",
+    "title": "Пряжа Pairfect - 4 нитки",
+    "vendor_code": "111",
+    "description": "75% шерсть, 25% полиамид",
+    "price": 100,
+    "img": "../cw_2/pic/shop/1.png"
+  },
+  {
+    "id": "2",
+    "title": "Пряжа PARLA",
+    "vendor_code": "222",
+    "description": "75% люрекс, 25% пайетки",
+    "price": 200,
+    "img": "../cw_2/pic/shop/2.png"
+  },
+  {
+    "id": "3",
+    "title": "Пряжа Pareo",
+    "vendor_code": "333",
+    "description": "50% хлопок, 50% акрил",
+    "price": 300,
+    "img": "../cw_2/pic/shop/3.png"
+  },
+  {
+    "id": "4",
+    "title": "Пряжа Poema Tweed",
+    "vendor_code": "444e",
+    "description": "94% шерсть, 6% вискоза",
+    "price": 400,
+    "img": "../cw_2/pic/shop/4.png"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Пряжа Puffy Color",
+    "vendor_code": "4445e",
+    "description": "100% микрополиэстер",
+    "price": 500,
+    "img": "../cw_2/pic/shop/5.png"
+  },
+  {
+    "id": "6",
+    "title": "Пряжа PUNO",
+    "vendor_code": "4446e",
+    "description": "75% бэби альпка, 25% полиамид",
+    "price": 600,
+    "img": "../cw_2/pic/shop/6.png"
+  },
+  {
+    "id": "7",
+    "title": "Пряжа Regina Plus",
+    "vendor_code": "4447e",
+    "description": "80% ангора, 20% полиамид",
+    "price": 700,
+    "img": "../cw_2/pic/shop/7.png"
+  },
+  {
+    "id": "8",
+    "title": "Пряжа Shine Pail",
+    "vendor_code": "4448e",
+    "description": "98% хлопок, 2% пайетки",
+    "price": 800,
+    "img": "../cw_2/pic/shop/8.png"
+  },
+  {
+    "id": "9",
+    "title": "Пряжа Softest Merino Wool",
+    "vendor_code": "444e",
+    "description": "	100% шерсть (merino wool)",
+    "price": 900,
+    "img": "../cw_2/pic/shop/9.png"
+  }
+]
