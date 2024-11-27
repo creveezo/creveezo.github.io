@@ -1,12 +1,12 @@
-async function getResponce() {
+async function getResponse() {
     // let responce = await fetch("https://my-json-server.typicode.com/typicode/demo/posts")
     //let responce = await fetch("https://vmarshirov.github.io/g06u28/030_js/data/0620.json")
     //let responce = await fetch("http://185.182.111.214:7628/tmp/g06u28.txt_api.json")
 //    let responce = await fetch("../../tmp/g06u28.shop.json")
-    let responce = await fetch("../cw_2/shop.json")
-    console.log("responce:\n", responce, "\n /responce: \n")
-    let content = await responce.text()
-    console.log("await responce.text()\n", content)
+    let response = await fetch("../cw_2/shoping.json")
+    console.log("response:\n", response, "\n /response: \n")
+    let content = await response.text()
+    console.log("await response.text()\n", content)
     content = JSON.parse(content)
     content = content.slice(0, 9)
     console.log("content.slice(0, 9)", content)
@@ -29,4 +29,4 @@ async function getResponce() {
                 `
     }
 }
-getResponce()
+getResponse()
